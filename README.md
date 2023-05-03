@@ -1,3 +1,31 @@
+> 采用OpenWrt官方源码编译X64_64固件，同时整合一系列网络插件。
+
+# 为什么要自行编译OpenWrt镜像？
+~~闲来无事~~
+
+学习Github Actions
+
+学习Github Pages
+
+学习Github Desktop
+
+# 什么是Github Actions？
+
+# 什么是OpenWrt Feeds？
+
+# 参考
+
+[P3TERX/Actions-OpenWr](https://github.com/P3TERX/Actions-OpenWrt)
+
+[raiders168/Auto-OpenWrt](https://github.com/raiders168/Auto-OpenWrt)
+
+# 当前困难
+Github Actions 编译时长超过6小时
+
+# 计划的解决方案
+生成更加精简的`.config`文件
+
+___
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
