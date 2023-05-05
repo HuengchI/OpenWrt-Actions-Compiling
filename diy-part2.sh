@@ -18,9 +18,9 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
 
 ########### 更新lean的内置的smartdns版本 ###########
-sed -i 's/1.2022.38/1.2023.41/g' feeds/packages/net/smartdns/Makefile
-sed -i 's/5a2559f0648198c290bb8839b9f6a0adab8ebcdc/60a3719ec739be2cc1e11724ac049b09a75059cb/g' feeds/packages/net/smartdns/Makefile
-sed -i 's/^PKG_MIRROR_HASH/#&/' feeds/packages/net/smartdns/Makefile
+# sed -i 's/1.2022.38/1.2023.41/g' feeds/packages/net/smartdns/Makefile
+# sed -i 's/5a2559f0648198c290bb8839b9f6a0adab8ebcdc/60a3719ec739be2cc1e11724ac049b09a75059cb/g' feeds/packages/net/smartdns/Makefile
+# sed -i 's/^PKG_MIRROR_HASH/#&/' feeds/packages/net/smartdns/Makefile
 
 ########### 安装smartdns（必选）###########
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
